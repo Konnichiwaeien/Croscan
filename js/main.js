@@ -74,3 +74,42 @@ var changeTabColor = function() {
 };
 
 changeTabColor();
+
+
+
+// function resize(){
+//     one = document.getElementsByClassName('main-header__form')[0];
+//     two = document.getElementsByClassName('main-header__toggle')[0];
+    
+//     if(window.innerWidth < 500){
+//         one.style.backgroundColor = 'green';
+//     }
+//        if(window.innerWidth > 899){
+//         if(two.classList.contains("main-header__toggle_opened")) {
+//           two.classList.remove("main-header__toggle_opened");
+//         }
+//         if(one.classList.contains("main-header__form_opened")) {
+//           one.classList.remove("main-header__form_opened");
+//         }
+//     }
+// }
+// window.onresize = resize;
+
+
+
+// var fixViewportHeight = function() {
+//   if(window.innerWidth < 900) {
+//     var header = document.querySelector(".main-header");
+//     var viewportHeight = header.offsetHeight + 1;
+//     header.style.height= viewportHeight + "px";
+//     console.log("kek");
+//   }
+// };
+
+// // fixViewportHeight();
+
+// window.addEventListener('resize', function() {
+//   fixViewportHeight();
+//   // let vh = window.innerHeight * 0.01;
+//   // document.documentElement.style.setProperty('--vh', `${vh}px`);
+// });
