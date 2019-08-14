@@ -146,7 +146,7 @@ figure {
   --icon-fill: #ff9090;
   --theme-color: #fe9e88;
 }
-@font-face {
+/* @font-face {
   font-family: "Montserrat";
   font-display: auto;
   font-weight: 400;
@@ -194,7 +194,7 @@ figure {
   font-weight: 700;
   font-style: normal;
   src: local("Proxima Nova Bold"), local("ProximaNova-Bold"), url("../fonts/proximanova-bold.woff2") format("woff2"), url("../fonts/proximanova-bold.woff") format("woff");
-}
+} */
 html {
   box-sizing: border-box;
 }
